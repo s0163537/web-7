@@ -17,9 +17,9 @@
             <div class="login__btn">
                 <?php if(isset($_SESSION['user'])){
                      print('Здравствуйте, ' . $_SESSION['user']['name'] . '<br>');
-                     print('<a class="popup-link log__btn" href="/web6/logout.php">Выйти</a>');
+                     print('<a class="popup-link log__btn" href="/web-7/logout.php">Выйти</a>');
                 }else{
-                    print('<a class="popup-link log__btn" href="/web6/login.php">Войти</a>');
+                    print('<a class="popup-link log__btn" href="/web-7/login.php">Войти</a>');
                 }
                 ?>
 
